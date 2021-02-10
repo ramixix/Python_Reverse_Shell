@@ -6,7 +6,7 @@ In other words, Reverse shell is getting the connection from the victim or targe
 
 ---
 
-![a](https://www.timip.net/content/images/2020/08/ICMP-ReverseShell11042014.gif)
+![pic](https://www.timip.net/content/images/2020/08/ICMP-ReverseShell11042014.gif)
 
 ---
 
