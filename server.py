@@ -36,7 +36,7 @@ def  recv_from_client(client_socket):
             response = output.split("\n")
             output = "\n".join(response[0:-2])
             path = response[-1]
-            print(colored(output, 'magenta'))
+            print(output)
             print(colored(path, 'cyan'), end="")
             
         
