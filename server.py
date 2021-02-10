@@ -8,6 +8,9 @@ from termcolor import colored
 FORMAT = "utf-8"
 HEADERSIZE = 16
 
+# ipv4 and port to bind
+Bind_ip = "192.168.1.104"
+Bind_port = 4444
 
 # make a header for every message(command here) that is going to be send.
 # this header contain message(command) length so this way by reading header first 
@@ -56,10 +59,6 @@ def command_handler(client_socket):
 
 
 def main():
-    # ipv4 and port to bind
-    Bind_ip = "192.168.1.104"
-    Bind_port = 4444
-
     # create server socket using INET(ipv4) family and tcp type protocol
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
